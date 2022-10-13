@@ -20,50 +20,24 @@ const navigation = [
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Configuration',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
+      { title: 'Basics', href: '/docs/configuration-basics' },
       {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
+        title: 'Customization & Styling',
+        href: '/docs/configuration-styling',
       },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
+      { title: 'Content & Parsing', href: '/docs/configuration-parsing' },
       {
-        title: 'Introduction to string theory',
-        href: '/docs/introduction-to-string-theory',
-      },
-      { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
-    ],
-  },
-  {
-    title: 'Advanced guides',
-    links: [
-      { title: 'Writing plugins', href: '/docs/writing-plugins' },
-      { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
-      {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
-      },
+        title: 'Player behavior',
+        href: '/docs/configuration-player-behavior',
+      }
     ],
   },
   {
     title: 'API reference',
     links: [
-      { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
-      { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
-      { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert' },
-      { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
-    ],
-  },
-  {
-    title: 'Contributing',
-    links: [
-      { title: 'How to contribute', href: '/docs/how-to-contribute' },
-      { title: 'Architecture guide', href: '/docs/architecture-guide' },
-      { title: 'Design principles', href: '/docs/design-principles' },
+      { title: 'Creating transcriptions', href: '/docs/api/submitting-article' },
     ],
   },
 ]

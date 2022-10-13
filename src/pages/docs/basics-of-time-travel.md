@@ -7,9 +7,17 @@ Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo ex
 
 ---
 
+{% callout type="warning" title="Oh no! Something bad happened!" %}
+This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+{% /callout %}
+
+{% callout title="You should know!" %}
+This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
+{% /callout %}
+
 ## Quis vel iste dicta
 
-Sit commodi iste iurddd molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+Sit commodi iste iurdddknllk molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 
 ### Et pariatur ab quas
 
