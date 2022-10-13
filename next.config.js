@@ -5,7 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/Syntax',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md'],
   swcMinify: true,
