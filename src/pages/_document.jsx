@@ -37,13 +37,23 @@ const themeScript = `
 
   isDarkMode.addEventListener('change', () => updateThemeWithoutTransitions())
 `
+const googleAnalyticsScript = `
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R9V8LW6980');
+
+`
 
 export default function Document() {
   return (
     <Html className="antialiased [font-feature-settings:'ss01']" lang="en">
       <Head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-      </Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R9V8LW6980"></script>
+        <script dangerouslySetInnerHTML={{ __html: googleAnalyticsScript }} />
+      </Head> 
       <body className="bg-white dark:bg-slate-900">
         <Main />
         <NextScript />
