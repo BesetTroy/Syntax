@@ -22,7 +22,6 @@ const navigation = [
   {
     title: 'Configuration',
     links: [
-      { title: 'Basics', href: '/docs/configuration-basics' },
       {
         title: 'Customization & Styling',
         href: '/docs/configuration-styling',
